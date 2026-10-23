@@ -1,0 +1,16 @@
+# Boundary Sign
+
+> Boundary Sign makes vertical, powder-coated aluminum no trespassing signs and property markers that lock onto T-posts and fence posts. Built for ranchers, landowners, hunters, and farmers who need durable, state-compliant boundary signage.
+
+## Pages
+
+- [Home](/): Product lineup and overview of Boundary Sign's aluminum no trespassing signs.
+- [About](/about): The story and mission behind Boundary Sign.
+- [Team](/team): The people building Boundary Sign.
+- [Where to Buy](/retailers): Find Boundary Sign products at trusted retailers across Montana and Idaho.
+- [Field Notes (Blog)](/blog): Guides on property posting laws and boundary marking.
+
+## Field Notes
+
+- [Montana Property Posting Guide](/blog/montana-property-posting-guide-regulations-and-requirements): Montana's posting regulations and the "implied privilege" rule.
+- [Idaho Property Posting Guide](/blog/idaho-property-posting-guide-regulations-and-requirements): Idaho's property posting regulations and requirements.
