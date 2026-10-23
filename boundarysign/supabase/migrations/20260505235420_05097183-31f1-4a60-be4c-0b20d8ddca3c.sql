@@ -1,0 +1,1 @@
+UPDATE public.site_content SET body = '' WHERE key = 'team_intro';
