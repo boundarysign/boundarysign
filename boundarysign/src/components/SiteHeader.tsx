@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
-import { CartDrawer } from "./CartDrawer";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 
@@ -32,7 +31,7 @@ export const SiteHeader = () => {
           </div>
         </Link>
 
-        {/* Desktop nav — only at lg+ where 8 links fit comfortably */}
+        {/* Desktop nav: only at lg+ where links fit comfortably */}
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8 font-display text-sm tracking-widest">
           {navLinks.map((l) =>
             l.external ? (
@@ -44,7 +43,6 @@ export const SiteHeader = () => {
         </nav>
 
         <div className="flex items-center gap-1 md:gap-2">
-          <CartDrawer />
           {/* Mobile / tablet menu trigger */}
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>

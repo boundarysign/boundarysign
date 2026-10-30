@@ -5,7 +5,7 @@ export const SiteFooter = () => {
         <div>
           <div className="font-display text-2xl tracking-wider mb-2">Boundary Sign</div>
           <p className="text-sm text-primary-foreground/70 max-w-xs">
-            Rugged signage that helps landowners clearly mark their property — and keeps things honest between them and the people on the land.
+            Rugged signage that helps landowners clearly mark their property and keep things honest between them and the people on the land.
           </p>
         </div>
         <div>
@@ -26,7 +26,7 @@ export const SiteFooter = () => {
       </div>
       <div className="border-t border-primary-foreground/10">
         <div className="container py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-primary-foreground/60">
-          <div>© {new Date().getFullYear()} Boundary Sign — a Beyond Boundaries LLC brand. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Boundary Sign, a Beyond Boundaries LLC brand. All rights reserved.</div>
           <div className="font-mono tracking-wider">EST. 2025</div>
         </div>
       </div>

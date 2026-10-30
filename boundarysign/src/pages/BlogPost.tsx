@@ -13,7 +13,7 @@ const BlogPost = () => {
   if (!post) {
     return (
       <div className="min-h-screen flex flex-col bg-background">
-        <Seo title="Post not found — Boundary Sign" description="The Field Notes post you're looking for couldn't be found." path={`/blog/${slug ?? ""}`} />
+        <Seo title="Post not found | Boundary Sign" description="The Field Notes post you're looking for couldn't be found." path={`/blog/${slug ?? ""}`} />
         <SiteHeader />
         <main className="flex-1 container py-14 md:py-24 text-center">
           <h1 className="font-display text-3xl mb-4">Post not found</h1>
@@ -27,7 +27,7 @@ const BlogPost = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Seo
-        title={`${post.title} — Boundary Sign`}
+        title={`${post.title} | Boundary Sign`}
         description={post.excerpt}
         path={`/blog/${post.slug}`}
         type="article"

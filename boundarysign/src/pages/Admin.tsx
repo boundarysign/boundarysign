@@ -183,7 +183,7 @@ export default function Admin() {
               <Card key={b.id} className="p-5">
                 <div className="flex justify-between items-start">
                   <div>
-                    <div className="font-display text-lg">{b.name} <span className="text-sm text-muted-foreground">— {b.email}</span></div>
+                    <div className="font-display text-lg">{b.name} <span className="text-sm text-muted-foreground">({b.email})</span></div>
                     <div className="text-xs text-muted-foreground">{new Date(b.created_at).toLocaleString()}</div>
                     {b.company && <div className="text-sm mt-1"><b>Company:</b> {b.company}</div>}
                     {b.phone && <div className="text-sm"><b>Phone:</b> {b.phone}</div>}

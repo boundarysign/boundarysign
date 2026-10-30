@@ -9,8 +9,8 @@ const Blog = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Seo
-        title="Field Notes — Boundary Sign Blog"
-        description="State-by-state property posting laws, sign install how-tos, and dispatches from the working land — by Boundary Sign."
+        title="Field Notes | Boundary Sign Blog"
+        description="State-by-state property posting laws, sign install how-tos, and dispatches from the working land from Boundary Sign."
         path="/blog"
       />
       <SiteHeader />

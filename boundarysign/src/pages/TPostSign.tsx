@@ -10,7 +10,7 @@ import installPoster from "@/assets/tpost-install-poster.jpg.asset.json";
 import { tPostCompliantStates } from "@/data/tPostCompliantStates";
 
 const whyDifferent = [
-  { icon: Eye, title: "Cut-Out Letters", body: "Letters are punched straight through the aluminum. No paint, no stickers, no inks — nothing that can fade, peel, or wash off." },
+  { icon: Eye, title: "Cut-Out Letters", body: "Letters are punched straight through the aluminum. No paint, no stickers, no inks, and nothing that can fade, peel, or wash off." },
   { icon: Shield, title: "Heavy-Gauge Aluminum", body: "Heavy-gauge aluminum body that effectively resists bending, warping, or crumpling like normal hardware store signs. " },
   { icon: Hammer, title: "Universal Mount", body: "A single display tab slides over T-posts, C-posts, U-posts, and locks on with zipties. " },
   { icon: Sun, title: "Blaze-Orange Powdercoat", body: "UV-rated powdercoat finish that holds its color through years of sun, rain, snow, and wind." },
@@ -19,7 +19,7 @@ const whyDifferent = [
 const steps = [
   { n: "01", title: "Slide it on", body: "Drop the display tab over any standard fence post. No drilling, no brackets." },
   { n: "02", title: "Zip-tie it down", body: "Two-three zip ties through the pre-punched holes lock the sign in place and keep it secured down." },
-  { n: "03", title: "Forget about it", body: "Walk away. The sign will still be there — readable, intact, compliant — years from now." },
+  { n: "03", title: "Forget about it", body: "Walk away. The sign will still be there, readable, intact, and compliant, years from now." },
 ];
 
 const builtToLast = [
@@ -32,7 +32,7 @@ const TPostSign = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Seo
-        title="The T-Post Sign — Boundary Sign"
+        title="The T-Post Sign | Boundary Sign"
         description={'A vertical aluminum no-trespassing sign engineered for T-posts, C-posts, U-posts, round posts, and wood. Cut-out letters, .040" aluminum, compliant in 36 states.'}
         path="/t-post-sign"
       />
@@ -165,7 +165,7 @@ const TPostSign = () => {
             <div className="text-xs font-display tracking-[0.3em] text-accent mb-2">STATE COMPLIANCE</div>
             <h2 className="font-display text-3xl md:text-4xl mb-4 uppercase">Compliant in 36 states.</h2>
             <p className="text-muted-foreground">
-              The T-Post Sign is built to satisfy posting statutes in the states listed below. Compliance applies specifically to this sign — the upcoming Barbwire Square Sign covers a different set.
+              The T-Post Sign is built to satisfy posting statutes in the states listed below. Compliance applies specifically to this sign; the upcoming Barbwire Square Sign covers a different set.
             </p>
           </div>
           <div className="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-6 gap-y-3">

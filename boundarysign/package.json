@@ -7,7 +7,7 @@
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
-    "build:static": "vite build && rm -rf static-site && cp -R dist static-site",
+    "build:static": "vite build && node scripts/generate-static-routes.js && rm -rf static-site && cp -R dist static-site",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",

@@ -13,7 +13,7 @@ const specs = [
 const features = [
   '.040" powder-coated aluminum',
   "Blaze-orange UV-rated finish",
-  "Cut-out letters — punched through the metal",
+  "Cut-out letters punched through the metal",
   "Won't fade, peel, or wear off. Ever.",
 ];
 
@@ -21,8 +21,8 @@ const designTiles = [
   { icon: Zap, title: "Seconds to Install", body: "Slips vertically onto T-posts, C-posts, and U-posts, and secures with zip ties." },
   { icon: Shield, title: '.040" Aluminum', body: "Heavy-gauge aluminum body that effectively resists bending, warping, or crumpling like normal hardware store signs. " },
   { icon: Sun, title: "Blaze Orange Powdercoat", body: "UV-rated powdercoat finish that holds its color through years of sun, rain, snow, and wind." },
-  { icon: Eye, title: "Cut-Out Letters", body: "Letters are punched straight through the metal — they physically can't fade, peel, or wash off." },
-  { icon: CheckCircle2, title: "Built to Last", body: "Stands up to weather, livestock, and people. Uses the post's own rigidity for support — no flex, no fail." },
+  { icon: Eye, title: "Cut-Out Letters", body: "Letters are punched straight through the metal, so they physically can't fade, peel, or wash off." },
+  { icon: CheckCircle2, title: "Built to Last", body: "Stands up to weather, livestock, and people. Uses the post's own rigidity for support with no flex and no fail." },
 ];
 
 export const TPostSignSection = () => {
@@ -47,7 +47,7 @@ export const TPostSignSection = () => {
           <h3 className="font-display text-3xl md:text-4xl uppercase leading-tight mb-2">T-Post Sign</h3>
           <p className="font-display text-lg text-muted-foreground mb-5">Vertical. Cut-out lettering. Made for fence lines.</p>
           <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-            The flagship marker. A heavy-gauge vertical aluminum sign engineered to slide onto T-posts, C-posts, U-posts or fasten on to round posts and wood posts — then stay there for years. Cut-out letters are literally punched through the metal so they can't fade, peel, fall off, or wear off. (And honestly — who wants to shoot out a sign that's already full of holes?)
+            The flagship marker. A heavy-gauge vertical aluminum sign engineered to slide onto T-posts, C-posts, U-posts or fasten on to round posts and wood posts, staying put for years. Cut-out letters are punched directly through the metal so they can't fade, peel, fall off, or wear off. Besides, who shoots at a sign that already has holes in it?
           </p>
 
           <div className="grid grid-cols-3 gap-3 mb-6">

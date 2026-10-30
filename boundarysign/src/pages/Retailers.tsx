@@ -21,7 +21,7 @@ const retailers: Retailer[] = [
     state: "Montana",
   },
   {
-    name: "Idaho Lumber — Hunters Ace Hardware",
+    name: "Idaho Lumber (Hunters Ace Hardware)",
     description: "Find Boundary Signs in Hailey at Hunters Ace Hardware.",
     locations: ["Hailey"],
     state: "Idaho",
@@ -47,13 +47,13 @@ const retailers: Retailer[] = [
 ];
 
 const mapLocations: MapLocation[] = [
-  // Montana Fence — verified storefronts from montanafence.com/locations
+  // Montana Fence: verified storefronts from montanafence.com/locations
   { retailer: "Montana Fence", city: "Billings", state: "MT", lat: 45.7466, lng: -108.4632, address: "7403 Entryway Dr, Billings, MT 59101" },
   { retailer: "Montana Fence", city: "Belgrade", state: "MT", lat: 45.7547, lng: -111.1492, address: "5400 Thorpe Rd, Belgrade, MT 59714" },
   { retailer: "Montana Fence", city: "Great Falls", state: "MT", lat: 47.4869, lng: -111.3540, address: "705 Vaughn Frontage Rd S, Great Falls, MT 59404" },
   { retailer: "Montana Fence", city: "Kalispell", state: "MT", lat: 48.2546, lng: -114.3265, address: "3465 Highway 93 N, Kalispell, MT 59901" },
   // Idaho Lumber & Hunter's Ace Hardware
-  { retailer: "Idaho Lumber — Hunters Ace Hardware", city: "Hailey", state: "ID", lat: 43.5043, lng: -114.3122, address: "921 Airport Way, Hailey, ID 83333" },
+  { retailer: "Idaho Lumber (Hunters Ace Hardware)", city: "Hailey", state: "ID", lat: 43.5043, lng: -114.3122, address: "921 Airport Way, Hailey, ID 83333" },
   // Valley Wide Country Stores
   { retailer: "Valley Wide", city: "Jerome", state: "ID", lat: 42.7080, lng: -114.5187, address: "1466 S Lincoln Ave, Jerome, ID 83338" },
   { retailer: "Valley Wide", city: "Wendell", state: "ID", lat: 42.7768, lng: -114.7029, address: "175 W Main St, Wendell, ID 83355" },
@@ -71,7 +71,7 @@ const Retailers = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Seo
-        title="Where to Buy — Boundary Sign"
+        title="Where to Buy | Boundary Sign"
         description="Find Boundary Sign products at trusted retailers across Montana and Idaho. Available at Montana Fence, Idaho Lumber, and Valley Wide locations."
         path="/retailers"
       />

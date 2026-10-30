@@ -9,7 +9,7 @@ const specs = [
 const features = [
   '.040" powder-coated aluminum',
   "Blaze-orange UV-rated finish",
-  "Cut-out letters — punched through the metal",
+  "Cut-out letters punched through the metal",
   "Won't fade, peel, or wear off. Ever.",
 ];
 
@@ -18,10 +18,10 @@ export const BarbwireSignSection = () => {
     <section id="barbwire-sign" className="bg-secondary/40 border-y border-border">
       <div className="container py-12 md:py-20">
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="text-xs font-display tracking-[0.3em] text-accent mb-2">NEW — COMING SOON</div>
+          <div className="text-xs font-display tracking-[0.3em] text-accent mb-2">COMING SOON</div>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 uppercase">THE WIRE HANGER</h2>
           <p className="text-muted-foreground">
-            A rectangular marker built specifically for wire fencing — and the broader set of state regulations that come with it.
+            A rectangular marker built specifically for wire fencing and the broader set of state regulations that come with it.
           </p>
         </div>
 
@@ -36,11 +36,11 @@ export const BarbwireSignSection = () => {
           </div>
 
           <div className="lg:order-1">
-            <div className="text-xs font-display tracking-[0.3em] text-accent mb-2">NEW — COMING SOON</div>
+            <div className="text-xs font-display tracking-[0.3em] text-accent mb-2">COMING SOON</div>
             <h3 className="font-display text-3xl md:text-4xl uppercase leading-tight mb-2">WIRE HANGER</h3>
             <p className="font-display text-lg text-muted-foreground mb-5">Rectangular format. Built to install anywhere.</p>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-              A rectangular marker built for wire fencing and sized to meet specifc state requirements for posting dimensions. Like the T-post sign, letters are cut directly through the aluminum so they never fade, peel, or fall off — no stickers, no paint, nothing to wear away. Tabs on the top and bottom let the sign hang from wires, with slots for zip ties and screw holes for so many other installation locations.
+              A rectangular marker built for wire fencing and sized to meet specific state requirements for posting dimensions. Like the T-post sign, letters are cut directly through the aluminum so they never fade, peel, or fall off: no stickers, no paint, and nothing to wear away. Tabs on the top and bottom let the sign hang from wires, with slots for zip ties and screw holes for other installation locations.
             </p>
 
             <div className="grid grid-cols-3 gap-3 mb-6">

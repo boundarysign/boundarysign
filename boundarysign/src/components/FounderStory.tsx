@@ -5,7 +5,7 @@ import springIdahoPitch from "@/assets/spring-idaho-pitch.jpg.asset.json";
 const pitchWins = [
   {
     title: "FALL IDAHO PITCH: 11/12/2025",
-    description: "Won 1st place in the quick pitch — the moment that connected me with the right people to manufacture the signs and turn an idea into a real business.",
+    description: "Won 1st place in the quick pitch. That win connected me with the right people to manufacture the signs and turn an idea into a real business.",
     image: "",
   },
   {
@@ -34,7 +34,7 @@ export const FounderStory = () => {
               <p className="flex gap-3">
                 <User className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <span>
-                  Boundary Sign is run by a young entrepreneur — every order, every email, and every design decision goes through one person who cares about getting it right.
+                  Boundary Sign is run by a young entrepreneur. Every order, email, and design decision goes through one person who cares about getting it right.
                 </span>
               </p>
               <p className="flex gap-3">
@@ -46,7 +46,7 @@ export const FounderStory = () => {
               <p className="flex gap-3">
                 <Trophy className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <span>
-                  Three-time winner of <strong className="text-foreground">collegiate pitch competitions</strong> — recognition that helped turn a workshop prototype into a real, growing brand.
+                  Three-time winner of <strong className="text-foreground">collegiate pitch competitions</strong>, helping turn a workshop prototype into a real, growing brand.
                 </span>
               </p>
             </div>

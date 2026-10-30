@@ -12,7 +12,7 @@ export interface CatalogProduct {
   /** e.g. "+ tax" */
   priceNote?: string;
   soldOut?: boolean;
-  /** When true, ordering happens by email or phone inquiry — no online checkout. */
+  /** When true, ordering happens by email or phone inquiry (no online checkout). */
   inquiryOnly?: boolean;
   shippingNote?: string;
   learnMoreTo?: string;
@@ -30,7 +30,7 @@ export const catalogProducts: CatalogProduct[] = [
     description:
       'Vertical, heavy-gauge .040" aluminum marker with cut-out letters and a display tab that slides over T-posts, C-posts, and U-posts. Blaze-orange powdercoat, compliant in 36 states.',
     image: tpostImg,
-    imageAlt: "Boundary Sign T-Post Sign — vertical blaze-orange aluminum no trespassing marker",
+    imageAlt: "Boundary Sign T-Post Sign: vertical blaze-orange aluminum no trespassing marker",
     price: 15.99,
     priceNote: "+ tax",
     inquiryOnly: true,

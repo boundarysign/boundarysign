@@ -26,7 +26,7 @@ export const Hero = () => {
             BOUNDARY SIGN
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-primary-foreground/85 max-w-xl mb-6 md:mb-8">
-            Heavy-gauge, state-compliant property markers built by a young entrepreneur out of the Pacific Northwest. A growing lineup of signs engineered to survive every season — and every fence line.
+            Heavy-gauge, state-compliant property markers built by a young entrepreneur out of the Pacific Northwest. A growing lineup of signs engineered to survive every season and every fence line.
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">
             <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-display tracking-widest w-full sm:w-auto">

@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     state: "Montana",
     contentHtml: `
 <p>In Big Sky Country, a fence line doesn't always mean "keep out." Unlike many states where private property is automatically off-limits, Montana law operates on a unique presumption of access. If you haven't explicitly told the public to stay out, the law often assumes they have the "privilege" to enter.</p>
-<p>This makes effective signage more than just a formality—it is the only legal way to revoke that privilege and ensure the Sheriff can enforce your boundaries.</p>
+<p>This makes effective signage more than just a formality: it is the only legal way to revoke that privilege and ensure the Sheriff can enforce your boundaries.</p>
 <p>To protect your land under <strong>Montana Code Annotated (MCA) § 45-6-201</strong>, you must meet specific posting standards. Here is the breakdown of what is required to legally post your property.</p>
 
 <h2>The "Implied Privilege" Rule (Why You MUST Post)</h2>
@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "2 min read",
     state: "Idaho",
     contentHtml: `
-<p>In an ideal world, property boundaries would be respected without question. No one should have to nail a sign to a post just to ensure their land isn't walked on. Unfortunately, implied boundaries are rarely enough to stop trespassers or ensure law enforcement can take action.</p>
+<p>A fence line alone isn't always enough to stop trespassers or give law enforcement grounds to take action.</p>
 <p>To ensure your property rights are enforceable under Idaho law, you must meet specific posting standards. Below is a direct breakdown of <strong>Idaho Code § 18-7008</strong> and what is required to legally post your land.</p>
 
 <h2>Cultivated vs. Uncultivated Land</h2>
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>Summary</h2>
-<p>While you shouldn't need signs to demand respect for private property, they are the only way to ensure the law is on your side. If your land is uncultivated or borders public land, ensure your posting meets the strict definition of "conspicuous" under <strong>Idaho Code § 18-7008</strong>.</p>
+<p>To ensure the law is on your side, your posting must meet the strict definition of "conspicuous" under <strong>Idaho Code § 18-7008</strong>, especially if your land is uncultivated or borders public ground.</p>
 <p>If you need compliant and reliable signage for your Idaho lands, check out <strong>Boundary Sign</strong>.</p>
 `,
   },

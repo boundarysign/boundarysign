@@ -4,10 +4,10 @@ export const ContactSection = () => {
   return (
     <section id="contact" className="border-t border-border bg-background">
       <div className="container py-12 md:py-20 md:py-28">
-        <div className="text-xs font-display tracking-[0.3em] text-accent mb-4">— GET IN TOUCH</div>
+        <div className="text-xs font-display tracking-[0.3em] text-accent mb-4">GET IN TOUCH</div>
         <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4">CONTACT ME</h2>
         <p className="text-base md:text-lg text-foreground/75 max-w-2xl mb-10">
-          Questions about a product, a bulk order, or your property? Reach out — I answer every message personally.
+          Questions about a product, a bulk order, or your property? Reach out and I will answer your message personally.
         </p>
         <div className="grid gap-6 md:grid-cols-2 max-w-3xl">
           <a

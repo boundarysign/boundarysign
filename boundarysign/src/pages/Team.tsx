@@ -6,32 +6,52 @@ import { Seo } from "@/components/Seo";
 
 interface Member { id: string; name: string; role: string | null; bio: string | null; photo_url: string | null; }
 
+const DEFAULT_MEMBERS: Member[] = [
+  {
+    id: "tyler",
+    name: "Tyler Christner",
+    role: "Founder & Owner",
+    bio: "Raised working on the Norwood Aikman Ranch in Eagle, Idaho. Tyler started Boundary Sign to build heavy-gauge aluminum signs that hold up to weather, livestock, and real fence lines.",
+    photo_url: "/team/tyler-christner.jpg",
+  },
+];
+
 export default function Team() {
   const [intro, setIntro] = useState<{ title: string | null; body: string | null } | null>(null);
   const [members, setMembers] = useState<Member[]>([]);
 
   useEffect(() => {
     supabase.from("site_content").select("title, body").eq("key", "team_intro").maybeSingle().then(({ data }) => setIntro(data));
-    supabase.from("team_members").select("*").order("display_order").then(({ data }) => setMembers(data || []));
+    supabase.from("team_members").select("*").order("display_order").then(({ data }) => {
+      if (data && data.length > 0) {
+        setMembers(data);
+      } else {
+        setMembers(DEFAULT_MEMBERS);
+      }
+    }).catch(() => {
+      setMembers(DEFAULT_MEMBERS);
+    });
   }, []);
+
+  const displayMembers = members.length > 0 ? members : DEFAULT_MEMBERS;
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Seo
-        title="Meet the Team — Boundary Sign"
-        description="The people behind Boundary Sign — designing, manufacturing, and shipping aluminum no trespassing signs built to last."
+        title="Meet the Team | Boundary Sign"
+        description="The people behind Boundary Sign: designing, manufacturing, and shipping aluminum no trespassing signs built to last."
         path="/team"
       />
       <SiteHeader />
       <main className="flex-1">
         <section className="container py-16 md:py-24">
           <div className="max-w-4xl mb-12">
-            <div className="text-xs font-display tracking-[0.3em] text-accent mb-4">— THE PEOPLE</div>
+            <div className="text-xs font-display tracking-[0.3em] text-accent mb-4">THE PEOPLE</div>
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl mb-6">{intro?.title || "MEET THE TEAM"}</h1>
-            <p className="text-lg text-muted-foreground">{intro?.body}</p>
+            <p className="text-lg text-muted-foreground">{intro?.body ? intro.body.replace(/—/g, ", ") : "The people behind Boundary Sign: landowners and makers who care about doing things the right way."}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {members.map(m => (
+            {displayMembers.map(m => (
               <div key={m.id} className="bg-card border border-border p-6">
                 {m.photo_url ? (
                   <img src={m.photo_url} alt={m.name} className="w-full h-64 object-cover mb-4" />
@@ -40,7 +60,7 @@ export default function Team() {
                 )}
                 <h3 className="font-display text-2xl">{m.name}</h3>
                 {m.role && <div className="text-xs font-display tracking-widest text-accent mt-1">{m.role}</div>}
-                {m.bio && <p className="text-sm text-foreground/80 mt-3">{m.bio}</p>}
+                {m.bio && <p className="text-sm text-foreground/80 mt-3">{m.bio.replace(/—/g, ", ")}</p>}
               </div>
             ))}
           </div>

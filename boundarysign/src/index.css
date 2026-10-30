@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Boundary Sign — Rugged outdoors design system.
+/* Boundary Sign: Rugged outdoors design system.
    Palette: weathered canvas, deep forest, charcoal, blaze orange accent.
    All colors MUST be HSL. */
 
@@ -21,7 +21,7 @@
     --popover: 38 30% 97%;
     --popover-foreground: 30 10% 12%;
 
-    /* Deep forest — primary brand */
+    /* Deep forest: primary brand */
     --primary: 95 22% 18%;
     --primary-foreground: 40 35% 96%;
 
@@ -32,7 +32,7 @@
     --muted: 36 18% 88%;
     --muted-foreground: 30 8% 38%;
 
-    /* Blaze orange — CTA accent */
+    /* Blaze orange: CTA accent */
     --accent: 18 88% 50%;
     --accent-foreground: 40 35% 98%;
 
